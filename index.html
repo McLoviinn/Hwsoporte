@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>HwSoporte</title>
+</head>
+
+<body>
+
+<!---- seccion inicio ---->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><img src="Imagenes/LOGOPNG.png" alt="HwSoporte"></h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#clientes" onclick="seleccionar(this)">CLIENTES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/company/hw-soporte/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+
+                <h2><b>HWSOPORTE</b></h2>
+                <p class="descripcion">
+                    Con un equipo de expertos siempre disponible, gestionamos y optimizamos tu infraestructura TI para
+                    garantizar la continuidad operativa que tu negocio necesita, convirtiéndonos en tu socio
+                    estratégico en tecnología.
+                </p>
+                <a href="#servicios">Descubre Nuestros Servicios</a>
+            </div>
+            >
+
+        </div>
+    </section>
+
+<!---- seccion nosotros ---->
+
+    <section id="sobremi">
+        <h3 class="titulo-seccion">SOBRE NOSOTROS</h3>
+        <div class="sobremi-contenido">
+            <div class="cards-container">
+                <div class="card card-1">
+                    <div class="card-front">
+                        <p class="title">Quiénes Somos</p>
+                        <p class="subtitle">Nuestra misión</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Nos especializamos en ofrecer soluciones a medida en tecnología de la información. Nuestro
+                            equipo de expertos asegura que tu infraestructura tecnológica funcione sin problemas,
+                            anticipando tus necesidades y brindando un soporte confiable y eficiente. Nos enfocamos en
+                            la innovación y la mejora continua, siendo el socio ideal para empresas de cualquier tamaño.
+                        </p>
+                    </div>
+                </div>
+                <div class="card card-2">
+                    <div class="card-front">
+                        <p class="title">Nuestra Misión</p>
+                        <p class="subtitle">Nuestro objetivo</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Nuestra misión es ofrecer soluciones tecnológicas innovadoras y confiables que ayuden a
+                            nuestros clientes a optimizar procesos y mejorar su eficiencia. Nos dedicamos a brindar un
+                            servicio de calidad, anticipando y resolviendo desafíos tecnológicos, para que nuestros
+                            clientes puedan enfocarse en el crecimiento de sus negocios con total confianza en su
+                            infraestructura TI.</p>
+                    </div>
+                </div>
+                <div class="card card-3">
+                    <div class="card-front">
+                        <p class="title">Nuestros Valores</p>
+                        <p class="subtitle">Nuestros principios</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Nuestros valores clave son el compromiso con la calidad y la personalización del servicio.
+                            Siempre buscamos innovar para ofrecer soluciones tecnológicas avanzadas. Nos guiamos por la
+                            excelencia, actuando con responsabilidad, transparencia y ética. Creemos en el trabajo en
+                            equipo, tanto dentro de nuestra organización como en colaboración con nuestros clientes,
+                            para construir relaciones de confianza y lograr los mejores resultados.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de Estadísticas -->
+            <div class="estadisticas">
+                <div class="contador">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" stroke-dasharray="0, 100" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    </svg>
+                    <span class="signo">+</span>
+                    <span class="numero" data-target="50">+0</span>
+                    <p>Proyectos Completados</p>
+                </div>
+                <div class="contador">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" stroke-dasharray="0, 100" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    </svg>
+                    <span class="signo">+</span>
+                    <span class="numero" data-target="30">+0</span>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="contador">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" stroke-dasharray="0, 100" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    </svg>
+                    <span class="signo">+</span>
+                    <span class="numero" data-target="10">+0</span>
+                    <p>Años de Experiencia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---- seccion servicios ---->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio servicio-soporte">
+                <div class="capa-oscura"></div>
+                <span class="icono"><i class="fa-solid fa-tools"></i></span>
+                <h4>Soporte Técnico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Soporte</li>
+                    <li>Asistencia</li>
+                    <li>Emergencias</li>
+                </ul>
+                <p>Proporcionamos soporte técnico continuo para resolver problemas de hardware y software de manera
+                    eficiente.</p>
+            </div>
+            <div class="servicio servicio-virtualizacion">
+                <span class="icono"><i class="fa-solid fa-cloud"></i></span>
+                <h4>Virtualización</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Cloud</li>
+                    <li>Servidores</li>
+                    <li>Backup</li>
+                </ul>
+                <p>Ofrecemos soluciones que mejoran el uso de recursos, brindando flexibilidad y seguridad para tu
+                    infraestructura.</p>
+            </div>
+            <div class="servicio servicio-servidores">
+                <span class="icono"><i class="fa-solid fa-server"></i></span>
+                <h4>Servidores</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Servidores</li>
+                    <li>Soporte</li>
+                    <li>Optimización</li>
+                </ul>
+                <p>Nos encargamos de la administración y mantenimiento de servidores para asegurar su disponibilidad y
+                    rendimiento.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio servicio-seguridad">
+                <span class="icono"><i class="fa-solid fa-shield-alt"></i></span>
+                <h4>Seguridad Informática</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Seguridad</li>
+                    <li>Protección</li>
+                    <li>Auditoría</li>
+                </ul>
+                <p>Implementamos medidas de seguridad para proteger su infraestructura de amenazas y vulnerabilidades.
+                </p>
+            </div>
+            <div class="servicio servicio-redes">
+                <span class="icono"><i class="fa-solid fa-network-wired"></i></span>
+                <h4>Gestión de Redes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Redes</li>
+                    <li>Seguridad</li>
+                    <li>Monitoreo</li>
+                </ul>
+                <p>Implementamos y gestionamos redes seguras y confiables para garantizar un rendimiento óptimo y
+                    seguridad de los datos.</p>
+            </div>
+            <div class="servicio servicio-consultoria">
+                <span class="icono"><i class="fa-solid fa-cogs"></i></span>
+                <h4>Consultoría Técnica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Consultoría</li>
+                    <li>Asesoría</li>
+                    <li>Optimización</li>
+                </ul>
+                <p>Brindamos asesoría experta para optimizar sus sistemas y procesos tecnológicos para el mejor
+                    rendimiento.</p>
+            </div>
+        </div>
+    </section>
+
+
+<!---- seccion clientes ---->
+
+    <section id="clientes">
+        <h3 class="titulo-seccion">Nuestros Clientes</h3>
+        <div id="clientesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="fila">
+                        <div class="cliente">
+                            <img src="Imagenes/ACCH1.png" alt="COMIND INDUSTRIES">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/comind.png" MERCHILE">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Mer.png" alt="Cliente 3">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/e-press.png" alt="Cliente 4">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Ajax.png" alt="Cliente 5">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/tempel.png" alt="Cliente 6">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Tafca.png" alt="Cliente 6">
+                        </div>
+                    </div>
+                </div>
+                <!-- Segunda página de clientes -->
+                <div class="carousel-item">
+                    <div class="fila">
+                        <div class="cliente">
+                            <img src="Imagenes/Finco.png" alt="Cliente 7">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Efesis.png" Cliente 8">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Mondiglio.png" alt="Cliente 9">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Servimos.png" alt="Cliente 10">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Hotel.png" alt="Cliente 11">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/mw2.png" alt="Cliente 12">
+                        </div>
+                        <div class="cliente">
+                            <img src="Imagenes/Quorum.png" alt="Cliente 12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#clientesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#clientesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+<!---- seccion contacto ---->
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTO</h3>
+        <div class="asd">
+            <div class="contacto-container">
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.5136323956067!2d-70.61270303043582!3d-33.421822679000094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf665cb56bdd%3A0x6097d1931f6d498f!2sLas%20Urbinas%2087%2C%207510093%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1722717849080!5m2!1ses-419!2scl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contenedor-form">
+
+                    <form action="">
+                        <div class="fila mitad">
+                            <input type="text" placeholder="Nombre Completo " class="input-mitad">
+                            <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                        </div>
+                        <div class="fila">
+                            <input type="text" placeholder="Consulta..." class="input-full">
+                            <div class="fila">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                                    class="input-full"></textarea>
+                            </div>
+                            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                    </form>
+                </div>
+            </div>
+    </section>
+
+<!---- seccion whatsapp ---->
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/988099155" target="_blank">
+            <i class="fab fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+    <div id="whatsapp-toast" class="whatsapp-toast">
+        <button id="close-toast" class="close-toast">×</button>
+        <p>¿Tienes preguntas? ¡Háblanos por WhatsApp!</p>
+        <a href="https://wa.me/988099155" target="_blank">
+            <i class="fab fa-whatsapp"></i> Hablar ahora
+        </a>
+    </div>
+
+<!---- seccion footer ---->
+     
+    <footer>
+        <p>2024 Hwsoporte. Todos los derechos reservados.</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/company/hw-soporte/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="path/to/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
